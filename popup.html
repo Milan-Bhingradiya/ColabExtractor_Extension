@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copy Cell Content</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Copy Every Cell Content</h2>
+    <div class="options">
+      <label class="checkbox-container">
+        <input type="checkbox" id="includeOutput" />
+        <span class="checkmark"></span>
+        Also copy output of cells
+      </label>
+    </div>
+    <button id="copyCells">Copy All Cells</button>
+    <div id="notification" class="notification"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
